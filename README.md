@@ -34,15 +34,13 @@ The options include:
   
   '--img_size'    A number from 32, 64, 128, 256  Training image size. Reduce if receive memory error
   
-  Choose one of the following for training. For details see https://keras.io/applications/. We recommend MobileNetV2 and DenseNet201
-  
-  '--network'     'Xception'
-                'DenseNet201'                 
-                'MobileNetV2'                   
-                'NASNetMobile'
-                'Inception_Resnet_V2'
-                'VGG19'
-    
+  '--network'   Choose one of the following for training. For details see https://keras.io/applications/. We recommend MobileNetV2 and DenseNet201
+  'Xception'
+  'DenseNet201'
+  'MobileNetV2'
+  'NASNetMobile'
+  'Inception_Resnet_V2'
+  'VGG19'   
 
 Any questions please contact sschne01@uoguelph.ca
 
