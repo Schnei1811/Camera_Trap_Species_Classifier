@@ -28,15 +28,15 @@ There are numerous options to choose from when training. They are used for examp
   
 The options include:
 
-  --epoch       number between 1-500          Number of training epochs
+  '--epoch'       A number between 1-500          Number of training epochs
   
-  --batch_size  number between 1-64           Number of images placed on GPU. Reduce if receive memory error
+  '--batch_size'  A number between 1-64           Number of images placed on GPU. Reduce if receive memory error
   
-  --img_size    number from 32, 64, 128, 256  Training image size. Reduce if receive memory error
+  '--img_size'    A number from 32, 64, 128, 256  Training image size. Reduce if receive memory error
   
   Choose one of the following for training. For details see https://keras.io/applications/. We recommend MobileNetV2 and DenseNet201
   
-  --network     'Xception'
+  '--network'     'Xception'
                 'DenseNet201'                 
                 'MobileNetV2'                   
                 'NASNetMobile'
