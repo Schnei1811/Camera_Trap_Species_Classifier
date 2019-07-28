@@ -27,6 +27,7 @@ There are numerous options to choose from when training. They are used for examp
   python MutliClassTrain.py --epoch 200 --network MobileNetV2 --batch_size 32
   
 The options include:
+
   --epoch       number between 1-500          Number of training epochs
   
   --batch_size  number between 1-64           Number of images placed on GPU. Reduce if receive memory error
