@@ -24,8 +24,6 @@ Once complete, run
   
 There are numerous options to choose from when training. They are used for example:
 
-  python MutliClassTrain.py --epoch 200 --network MobileNetV2 --batch_size 32
-  
 The options include:
 
   '--epoch'       A number between 1-500          Number of training epochs
@@ -47,6 +45,10 @@ The options include:
   'Inception_Resnet_V2'
   
   'VGG19'   
+
+To select from the options, an input example looks something like this:
+
+python MutliClassTrain.py --epoch 200 --network DenseNetV2 --batch_size 32
 
 Any questions please contact sschne01@uoguelph.ca
 
