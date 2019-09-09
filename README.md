@@ -20,7 +20,7 @@ Once complete, run
 
   python MultiClassTrain.py
   
-  and the model will train using MobileNetV2 as default. You want to pay attention to the Validation Accuracy at the end of an epoch to see how well you are performing on the provided test set.
+  and the model will train using MobileNetV2 as default. You want to pay attention to the Validation Accuracy at the end of an epoch to see how well you are performing on the provided test set. For a comment by comment description of what the code is doing, you can run the view/run the Jupyter notebook as well. 
   
 There are numerous options to choose from when training. They are used for example:
 
